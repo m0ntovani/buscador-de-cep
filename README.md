@@ -1,17 +1,65 @@
-## Running React on Replit
+# 🔎 Buscador de CEP
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Este é um projeto desenvolvido em **React** que permite aos usuários buscar informações sobre um CEP (Código de Endereçamento Postal) brasileiro. A aplicação utiliza a API do [ViaCEP](https://viacep.com.br/) para realizar a consulta e exibe os dados do endereço, como logradouro, bairro, localidade e UF.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## 💡 Tecnologias Utilizadas
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- **HTML**: Estrutura da página.
+- **CSS**: Estilo da página (incluindo a estilização com classes personalizadas).
+- **JavaScript**: Linguagem de programação para funcionalidades interativas.
+- **React**: Biblioteca JavaScript para construir interfaces de usuário dinâmicas.
+- **React Icons**: Biblioteca para ícones, utilizada para exibir o ícone de pesquisa.
+- **Axios**: Biblioteca para fazer requisições HTTP para a API do ViaCEP.
+- **API do ViaCEP**: API pública utilizada para buscar as informações de CEP.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## 📚 Funcionalidades
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+- **Busca de CEP**: O usuário digita um CEP no campo de pesquisa e a aplicação exibe os dados associados a esse CEP.
+- **Validação de entrada**: A aplicação verifica se o campo de CEP foi preenchido antes de realizar a busca.
+- **Mensagens de erro**: Caso o CEP não seja encontrado ou ocorra um erro na requisição, uma mensagem é exibida.
 
-### Typescript
+## Como Executar o Projeto
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+### Pré-requisitos
+
+- **Node.js** (Recomendado: versão LTS)
+
+### Passos para rodar o projeto localmente
+
+1. **Clone o repositório**:
+
+    ```bash
+    git clone https://github.com/seu-usuario/cep-buscador.git
+    ```
+
+2. **Entre na pasta do projeto**:
+
+    ```bash
+    cd cep-buscador
+    ```
+
+3. **Instale as dependências**:
+
+    ```bash
+    npm install
+    ```
+
+4. **Execute o projeto**:
+
+    ```bash
+    npm start
+    ```
+
+O aplicativo estará rodando em [http://localhost:3000](http://localhost:3000).
+
+
+## Como Contribuir
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature: `git checkout -b minha-feature`.
+3. Faça suas alterações e commit.
+4. Envie para a branch: `git push origin minha-feature`.
+5. Abra um pull request para a branch principal (`master` ou `main`).
+
+## 👩🏾‍💻 Com amor e código, Thiffany Montovani!
+
