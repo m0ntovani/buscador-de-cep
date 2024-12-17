@@ -2,6 +2,8 @@
 
 Este é um projeto desenvolvido em **React** que permite aos usuários buscar informações sobre um CEP (Código de Endereçamento Postal) brasileiro. A aplicação utiliza a API do [ViaCEP](https://viacep.com.br/) para realizar a consulta e exibe os dados do endereço, como logradouro, bairro, localidade e UF.
 
+## link - https://buscador-de-cep-puce-mu.vercel.app/
+
 ## 💡 Tecnologias Utilizadas
 
 - **HTML**: Estrutura da página.
